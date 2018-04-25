@@ -1,0 +1,26 @@
+{
+  "name": "ngmp18-by",
+  "version": "1.0.0",
+  "description": "Node.js Global Mentoring Program - Q2 2018 run (BY)",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node index.js --exec",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yauheni Rohau <Yauheni_Rohau@epam.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "firmata": "^0.19.1",
+    "johnny-five": "^0.14.3",
+    "socket.io": "^2.1.0",
+    "udp-serial": "^0.2.0"
+  }
+}
